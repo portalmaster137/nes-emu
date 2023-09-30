@@ -7,7 +7,7 @@
 
 #define kVersionMajor  1
 #define kVersionMinor  4
-#define kVersionMinor2 1
+#define kVersionMinor2 2
 #if CONFIG_DEBUG
 	#define kVersionConfig "d"
 #else
