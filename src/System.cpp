@@ -111,7 +111,7 @@ namespace System
 	}
 }
 
-#elif PLATFORM_LINUX || PLATFORM_MAC
+#elif PLATFORM_LINUX || PLATFORM_MAC
 
 #include <sys/stat.h>
 
