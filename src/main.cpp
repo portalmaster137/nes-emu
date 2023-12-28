@@ -8,11 +8,13 @@
 #define kVersionMajor  1
 #define kVersionMinor  4
 #define kVersionMinor2 2
+
 #if CONFIG_DEBUG
 	#define kVersionConfig "d"
 #else
 	#define kVersionConfig ""
 #endif
+
 const char* kVersionString = "v" STRINGIZE(kVersionMajor) "." STRINGIZE(kVersionMinor) "." STRINGIZE(kVersionMinor2) kVersionConfig;
 
 namespace
@@ -21,8 +23,8 @@ namespace
 	{
 		const char* text =
 			"### %s %s - Nintendo Entertainment System Emulator\n"
-			"### Author: Antonio Maiorano (amaiorano at gmail dot com)\n"
-			"### Source code available at http://github.com/amaiorano/nes-emu/ \n"
+			"### Author: Antonio Maiorano (amaiorano at gmail dot com), tweaked by portalmaster137\n"
+			"### Source code available at http://github.com/amaiorano/nes-emu/, forked at https://github.com/portalmaster137/nes-emu \n"
 			"\n";
 
 		printf(text, APP_NAME, kVersionString);
