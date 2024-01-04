@@ -7,7 +7,7 @@
 
 // Temp for debug drawing
 #include "Renderer.h"
-#include <SDL_render.h>
+#include <SDL2/SDL_render.h>
 Apu* g_apu = nullptr; //@HACK: get rid of this
 
 // If set, samples every CPU cycle (~1.79 MHz, more expensive but better quality),

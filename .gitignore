@@ -38,3 +38,14 @@ dumps/
 
 .vscode/
 .devcontainer/
+
+aclocal.m4
+compile
+configure
+config.status
+depcomp
+install-sh
+Makefile
+Makefile.in
+missing
+autom4te.cache/

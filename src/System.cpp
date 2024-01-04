@@ -1,6 +1,6 @@
 #include "System.h"
 #include "IO.h"
-#include <SDL.h>
+#include <SDL2/SDL.h>
 #include <chrono>
 
 namespace System
