@@ -36,3 +36,5 @@ dumps/
 *.raw
 *.nes
 
+.vscode/
+.devcontainer/
