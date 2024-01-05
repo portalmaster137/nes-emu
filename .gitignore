@@ -49,3 +49,4 @@ Makefile
 Makefile.in
 missing
 autom4te.cache/
+src/.deps
