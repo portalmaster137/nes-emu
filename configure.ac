@@ -4,7 +4,6 @@ AC_PROG_CXX
 AC_CONFIG_FILES([
     Makefile
     src/Makefile
-    inc/Makefile
 ])
 PKG_CHECK_MODULES(SDL, [sdl2])
 AM_PATH_SDL2([2.0.0])
