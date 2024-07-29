@@ -28,6 +28,7 @@ $(OUTPUT): $(OBJECTS)
 
 clean:
 	rm -rf $(OBJ_DIR) $(OUTPUT)
+	rm -f $(PCHS)
 
 headers: $(PCHS)
 
