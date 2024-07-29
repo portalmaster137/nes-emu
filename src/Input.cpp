@@ -82,4 +82,9 @@ namespace Input
 	{
 		return SDL_GetScancodeName(scanCode);
 	}
+
+	const char* GetKeyName(SDL_Keycode keyCode) {
+		return SDL_GetKeyName(keyCode);
+	}
 }
+

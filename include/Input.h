@@ -1,6 +1,7 @@
 #pragma once
 #include "Base.h"
 #include <SDL_scancode.h>
+#include <SDL_keycode.h>
 
 namespace Input
 {
@@ -18,4 +19,6 @@ namespace Input
 	bool ShiftDown();
 
 	const char* GetScancodeName(SDL_Scancode scanCode);
+
+	const char* GetKeyName(SDL_Keycode keyCode);
 }

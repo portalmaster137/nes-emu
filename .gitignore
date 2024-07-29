@@ -40,3 +40,5 @@ pch/
 obj/
 .vscode/
 venv/
+include/*.gch
+main
