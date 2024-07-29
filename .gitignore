@@ -36,6 +36,7 @@ dumps/
 *.raw
 *.nes
 
-./pch/
-./obj/
-./.vscode/
+pch/
+obj/
+.vscode/
+venv/
