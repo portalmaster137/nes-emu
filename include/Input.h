@@ -21,4 +21,5 @@ namespace Input
 	const char* GetScancodeName(SDL_Scancode scanCode);
 
 	const char* GetKeyName(SDL_Keycode keyCode);
+	const char* GetKeyName(SDL_Scancode scanCode);
 }

@@ -13,10 +13,12 @@ SOURCES = $(wildcard $(SRC_DIR)/*.cpp)
 PCHS = $(patsubst $(INCLUDE_DIR)/%.h,$(INCLUDE_DIR)/%.h.gch,$(HEADERS))
 OBJECTS = $(patsubst $(SRC_DIR)/%.cpp,$(OBJ_DIR)/%.o,$(SOURCES))
 
-all: $(PCHS) $(OUTPUT)
+all: headers $(OUTPUT)
+
+headers: $(PCHS)
 
 $(INCLUDE_DIR)/%.h.gch: $(INCLUDE_DIR)/%.h
-	rm main
+	@rm -f main
 	$(CXX) $(CXXFLAGS) -I$(INCLUDE_DIR) -x c++-header $< -o $@
 
 $(OBJ_DIR)/%.o: $(SRC_DIR)/%.cpp
@@ -30,9 +32,4 @@ clean:
 	rm -rf $(OBJ_DIR) $(OUTPUT)
 	rm -f $(PCHS)
 
-headers: $(PCHS)
-
-run: all
-	./$(OUTPUT)
-
-.PHONY: all clean headers
+.PHONY: all clean
