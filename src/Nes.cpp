@@ -1,11 +1,11 @@
-#include "Nes.h"
-#include "Stream.h"
-#include "Rom.h"
-#include "System.h"
-#include "Serializer.h"
-#include "Renderer.h"
-#include "IO.h"
-#include "CircularBuffer.h"
+#include "../inc/Nes.h"
+#include "../inc/Stream.h"
+#include "../inc/Rom.h"
+#include "../inc/System.h"
+#include "../inc/Serializer.h"
+#include "../inc/Renderer.h"
+#include "../inc/IO.h"
+#include "../inc/CircularBuffer.h"
 
 Nes::~Nes()
 {

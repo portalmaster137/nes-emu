@@ -1,4 +1,4 @@
-#include "Rom.h"
+#include "../inc/Rom.h"
 
 void RomHeader::Initialize(uint8 bytes[16])
 {

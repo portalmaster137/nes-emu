@@ -1,4 +1,4 @@
-#include "OpCodeTable.h"
+#include "../inc/OpCodeTable.h"
 
 void ValidateOpCodeTable(OpCodeEntry opCodeTable[], size_t numEntries);
 

@@ -1,9 +1,9 @@
-#include "Cpu.h"
-#include "Nes.h"
-#include "OpCodeTable.h"
-#include "MemoryMap.h"
-#include "Serializer.h"
-#include "Debugger.h"
+#include "../inc/Cpu.h"
+#include "../inc/Nes.h"
+#include "../inc/OpCodeTable.h"
+#include "../inc/MemoryMap.h"
+#include "../inc/Serializer.h"
+#include "../inc/Debugger.h"
 
 // Some retail games overflow (on purpose?) like Battletoads
 // so we can't leave this on

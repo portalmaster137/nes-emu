@@ -1,4 +1,4 @@
-#include "Stream.h"
+#include "../inc/Stream.h"
 #include <cstdarg>
 
 void IStream::Printf(const char* format, ...)

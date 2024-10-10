@@ -1,9 +1,9 @@
-#include "Base.h"
-#include "Nes.h"
-#include "System.h"
-#include "Input.h"
-#include "Renderer.h"
-#include "Debugger.h"
+#include "../inc/Base.h"
+#include "../inc/Nes.h"
+#include "../inc/System.h"
+#include "../inc/Input.h"
+#include "../inc/Renderer.h"
+#include "../inc/Debugger.h"
 
 #define kVersionMajor  1
 #define kVersionMinor  4

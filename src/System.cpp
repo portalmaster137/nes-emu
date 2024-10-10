@@ -1,5 +1,5 @@
-#include "System.h"
-#include "IO.h"
+#include "../inc/System.h"
+#include "../inc/IO.h"
 #include <SDL2/SDL.h>
 #include <chrono>
 

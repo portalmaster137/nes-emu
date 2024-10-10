@@ -1,13 +1,13 @@
-#include "Debugger.h"
+#include "../inc/Debugger.h"
 
 #if DEBUGGING_ENABLED
 
-#include "Base.h"
-#include "Nes.h"
-#include "OpCodeTable.h"
-#include "System.h"
-#include "Stream.h"
-#include "Input.h"
+#include "../inc/Base.h"
+#include "../inc/Nes.h"
+#include "../inc/OpCodeTable.h"
+#include "../inc/System.h"
+#include "../inc/Stream.h"
+#include "../inc/Input.h"
 #include <cassert>
 
 #define FCEUX_OUTPUT 0

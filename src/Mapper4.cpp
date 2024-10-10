@@ -1,5 +1,5 @@
-#include "Mapper4.h"
-#include "Serializer.h"
+#include "../inc/Mapper4.h"
+#include "../inc/Serializer.h"
 
 // http://wiki.nesdev.com/w/index.php/INES_Mapper_004
 

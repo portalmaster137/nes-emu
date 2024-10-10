@@ -1,8 +1,8 @@
-#include "RewindManager.h"
-#include "RewindBuffer.h"
-#include "Serializer.h"
-#include "System.h"
-#include "Nes.h"
+#include "../inc/RewindManager.h"
+#include "../inc/RewindBuffer.h"
+#include "../inc/Serializer.h"
+#include "../inc/System.h"
+#include "../inc/Nes.h"
 
 RewindManager::RewindManager()
 	: m_nes(nullptr)

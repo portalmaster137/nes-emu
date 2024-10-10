@@ -1,9 +1,9 @@
-#include "MemoryBus.h"
-#include "Cpu.h"
-#include "Ppu.h"
-#include "Cartridge.h"
-#include "CpuInternalRam.h"
-#include "MemoryMap.h"
+#include "../inc/MemoryBus.h"
+#include "../inc/Cpu.h"
+#include "../inc/Ppu.h"
+#include "../inc/Cartridge.h"
+#include "../inc/CpuInternalRam.h"
+#include "../inc/MemoryMap.h"
 
 CpuMemoryBus::CpuMemoryBus()
 	: m_ppu(nullptr)

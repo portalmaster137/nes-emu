@@ -1,10 +1,10 @@
-#include "Ppu.h"
-#include "Nes.h"
-#include "Memory.h"
-#include "Renderer.h"
-#include "Bitfield.h"
-#include "MemoryMap.h"
-#include "Debugger.h"
+#include "../inc/Ppu.h"
+#include "../inc/Nes.h"
+#include "../inc/Memory.h"
+#include "../inc/Renderer.h"
+#include "../inc/Bitfield.h"
+#include "../inc/MemoryMap.h"
+#include "../inc/Debugger.h"
 #include <tuple>
 #include <cstring>
 

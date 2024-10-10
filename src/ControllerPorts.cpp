@@ -1,8 +1,8 @@
-#include "ControllerPorts.h"
-#include "MemoryMap.h"
-#include "Debugger.h"
-#include "Input.h"
-#include "Serializer.h"
+#include "../inc/ControllerPorts.h"
+#include "../inc/MemoryMap.h"
+#include "../inc/Debugger.h"
+#include "../inc/Input.h"
+#include "../inc/Serializer.h"
 #include <string>
 #include <algorithm>
 
@@ -93,7 +93,7 @@ uint8 ControllerPorts::HandleCpuRead(uint16 cpuAddress)
 
 	// From http://wiki.nesdev.com/w/index.php/Standard_controller
 	//  In the NES and Famicom, the top three (or five) bits are not driven, and so retain the bits of the previous byte on the bus.
-	//  Usually this is the most significant byte of the address of the controller port—0x40. Paperboy relies on this behavior and 
+	//  Usually this is the most significant byte of the address of the controller portï¿½0x40. Paperboy relies on this behavior and 
 	//  requires that reads from the controller ports return exactly $40 or $41 as appropriate.
 	//@TODO: For now, will just hack it to assume this was the last bus value. Eventually could do this correctly in CpuMemoryBus
 	const uint8 lastCpuBusValue = 0x40;

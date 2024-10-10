@@ -1,12 +1,12 @@
-#include "Apu.h"
-#include "AudioDriver.h"
-#include "Bitfield.h"
-#include "Serializer.h"
+#include "../inc/Apu.h"
+#include "../inc/AudioDriver.h"
+#include "../inc/Bitfield.h"
+#include "../inc/Serializer.h"
 #include <vector>
 #include <algorithm>
 
 // Temp for debug drawing
-#include "Renderer.h"
+#include "../inc/Renderer.h"
 #include <SDL2/SDL_render.h>
 Apu* g_apu = nullptr; //@HACK: get rid of this
 

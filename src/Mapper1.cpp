@@ -1,5 +1,5 @@
-#include "Mapper1.h"
-#include "Serializer.h"
+#include "../inc/Mapper1.h"
+#include "../inc/Serializer.h"
 #include <algorithm>
 
 void Mapper1::PostInitialize()

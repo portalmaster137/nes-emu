@@ -1,4 +1,4 @@
-#include "Renderer.h"
+#include "../inc/Renderer.h"
 #define SDL_MAIN_HANDLED // Don't use SDL's main impl
 #include <SDL2/SDL.h>
 
