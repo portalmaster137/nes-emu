@@ -18,12 +18,11 @@ all: $(TARGET)
 build:
 	mkdir -p $(BUILDDIR)
 
-$(TARGET): build $(OBJS) 
+$(TARGET): $(OBJS) 
 	$(CXX) $(CXXFLAGS) -o $@ $^ $(LDFLAGS)
 
-$(BUILDDIR)/%.o: src/%.cpp
+$(BUILDDIR)/%.o: src/%.cpp | build
 	$(CXX) $(CXXFLAGS) -c -o $@ $<
-
 
 clean:
 	rm -f $(OBJS) $(TARGET)
