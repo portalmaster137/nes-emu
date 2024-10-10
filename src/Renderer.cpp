@@ -1,6 +1,6 @@
 #include "Renderer.h"
 #define SDL_MAIN_HANDLED // Don't use SDL's main impl
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 extern void DebugDrawAudio(SDL_Renderer* renderer);
 	

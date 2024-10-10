@@ -1,6 +1,6 @@
 #pragma once
 #include "Base.h"
-#include <SDL_scancode.h>
+#include <SDL2/SDL_scancode.h>
 
 namespace Input
 {

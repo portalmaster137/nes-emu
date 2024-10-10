@@ -2,8 +2,8 @@
 #include "CircularBuffer.h"
 #include "Stream.h"
 #define SDL_MAIN_HANDLED // Don't use SDL's main impl
-#include <SDL.h>
-#include <SDL_audio.h>
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_audio.h>
 #include <limits>
 
 #define OUTPUT_RAW_AUDIO_FILE_STREAM 0
