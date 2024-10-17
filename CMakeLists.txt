@@ -1,4 +1,4 @@
-cmake_minimum_required (VERSION 3.2)
+cmake_minimum_required (VERSION 3.30.5)
 project (nes-emu)
 
 SET(CMAKE_CXX_STANDARD 11)
